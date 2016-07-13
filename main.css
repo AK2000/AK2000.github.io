@@ -1,4 +1,9 @@
 body {
-  background-color: grey;
+  background-color: blue;
   text-align: center;
+}
+
+.content {
+  position: relative;
+  top: 20px;
 }
