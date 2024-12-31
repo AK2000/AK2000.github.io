@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "projects-greenfaas",
+        },{id: "post-hello-world",
+      
+        title: "Hello World!",
+      
+      description: "A first blog post and some new years thoughts",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/new-years/";
+        
+      },
+    },{id: "projects-greenfaas",
           title: 'GreenFaaS',
           description: "A FaaS based scheduler to run energy efficient multi-site workflows",
           section: "Projects",handler: () => {
