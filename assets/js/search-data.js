@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-hello-world",
+        },{id: "post-what-i-39-ve-been-reading-1-17-2025",
+      
+        title: "What I&#39;ve Been Reading (1/17/2025)",
+      
+      description: "A bi-weekly recap of the papers that I&#39;ve been reading",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/readings/";
+        
+      },
+    },{id: "post-hello-world",
       
         title: "Hello World!",
       
